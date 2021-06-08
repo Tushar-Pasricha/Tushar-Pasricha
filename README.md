@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+Solution-driven and detail-oriented professional with a demonstrated ability to deliver valuable insights via data analytics. Professional experience of almost 4 years in working with VPs of Fortune 500 companies, with projects spanning over CPG, supply chain analytics, forecasting, merchandising and cost analysis deployed at very large scale/organizational level. An expert having a profound and deep understanding of statistical models, algorithms, and multivariate analysis specializing in creating and deploying end to end production-ready machine learning pipelines especially on big data.
 
-You can use the [editor on GitHub](https://github.com/Tushar-Pasricha/Tushar-Pasricha/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+My Skills:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Programming: Python, R, R Shiny, SQL, Spark, Pyspark, Scala
 
-### Markdown
+Machine Learning/AI & Statistics: Regression; Decision Trees; Naïve Bayes; Random Forest; SVM; K-means; KNN; Association rule; Clustering Reinforcement, Unsupervised and Supervised learning; Feature Engineering; Outlier detection; Ensemble; PCA; ICA; Descriptive & Inferential Statistics; Chi-square, Hypothesis & A/B testing
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Databases/Big Data: Hadoop, Spark, Redshift, Hive, Pig, MySQL, NoSQL
 
-```markdown
-Syntax highlighted code block
+Cloud: GCP
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tushar-Pasricha/Tushar-Pasricha/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Others: Docker, Git
