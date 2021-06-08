@@ -1,0 +1,474 @@
+body {
+    margin: 0;
+    font-family: Source Serif Pro, Muli, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+    color: #3232cc;
+}
+
+.navbar-container {
+    font-family: Muli;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: lightgray;
+}
+
+.navbar-img {
+    display: inline-block;
+    margin-top: 1vh;
+    margin-left: 2vw;
+    height: 6vh;
+    border-radius: 100%;
+}
+
+.navbar-title {
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 10px;
+    line-height: 8vh;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.navbar-home {
+    display: block;
+    float: left;
+}
+
+.navbar-hamburger {
+    display: block;
+    float: right;
+}
+
+.navbar-links {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+
+.sidebar-container {
+    font-family: Muli;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 300px;
+    height: 90vh;
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.fa {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 100%;
+}
+
+.ai {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 100%;
+}
+
+.fa:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ai:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggle {
+    border-radius: 3px;
+}
+
+.main-pic {
+    width: 30%;
+    border-radius: 100%;
+}
+
+.title-name {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.title-subtitle {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #3232cc;
+}
+
+.nav-link-active {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navbar-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.9);
+    transition: background-color 0.5s;
+}
+
+.navbar-item:hover {
+    background-color: rgba(128, 128, 128, 1);
+}
+
+.nav-link-top {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+.content-container {
+    position: relative;
+    z-index: 1;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    width: 80vw;
+}
+
+.home-title {
+    margin-top: 25vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.home-subtitle {
+    text-align: center;
+    margin-top: 0vh;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.home-button-div {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-button {
+    display: inline;
+    font-family: Muli;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    line-height: 5vh;
+    vertical-align: middle;
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 5vh;
+    background-color: #008CBA;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #008CBA;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+    transform: scale(1.03);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.home-button:active {
+    background-color: #ba8b00;
+    color: black;
+}
+
+.banner-pic {
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.centered-text {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    opacity: 0.7;
+    font-family: Muli;
+    font-weight: 600;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resume-title {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.resume-subtitle {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    color: rgb(100, 100, 100);
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.resume-card {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5vh;
+    border-top: 1px solid rgba(100, 100, 100, 0.6);
+}
+
+.resume-strong {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.resume-text {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.resume-point {
+    margin-top: 10px;
+}
+
+.section-title {
+    font-family: Muli;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.section-subtitle {
+    font-family: Muli;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.section-subsubtitle {
+    font-family: Muli;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.section-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.pub-card {
+    font-family: Muli;
+    transition: transform 0.3s ease-in;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -10px #777, 0 0 10px -3px #777;
+
+}
+
+.pub-card:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.photo-container {
+    margin-top: 40px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.photo-card {
+    overflow: hidden;
+    display: inline-block;
+    width: 48%;
+    margin: 1% 1% 1% 1%;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -5px #777, 0 0 10px -3px #777;
+}
+
+.photo-img {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.photo-img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.blog-content {
+    font-family: Muli;
+    vertical-align: top;
+    width: 80%;
+    display: inline-block;
+}
+
+.blog-pic {
+    vertical-align: bottom;
+    display: inline-block;
+    overflow: hidden;
+    width: 18%;
+}
+
+@media (min-width: 950px) {
+    .navbar-container {
+        display: none;
+    }
+    
+    .sidebar-container {
+        margin-left: 10vw;
+        left: 0;
+    }
+
+    .content-container {
+        margin-left: 10vw;
+        margin-top: 5vh;
+        left: 300px;
+        margin-right: 10vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        padding-left: 10px;
+        width: 60vw;
+    }
+
+    .home-title {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .home-subtitle {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .home-button-div {
+        height: 7vh;
+        flex-direction: row;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .home-button {
+        width: 50%;
+    }
+
+    .banner-pic {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .resume-title {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .resume-subtitle {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .resume-card {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .section-title {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .section-subtitle {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .section-subsubtitle {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .section-text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .pub-card {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .photo-container {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .photo-card {
+        width: 23%;
+    }
+}
