@@ -1,3 +1,5 @@
+Hello!!
+
 Solution-driven and detail-oriented professional with a demonstrated ability to deliver valuable insights via data analytics. Professional experience of almost 4 years in working with VPs of Fortune 500 companies, with projects spanning over CPG, supply chain analytics, forecasting, merchandising and cost analysis deployed at very large scale/organizational level. An expert having a profound and deep understanding of statistical models, algorithms, and multivariate analysis specializing in creating and deploying end to end production-ready machine learning pipelines especially on big data.
 
 My Skills:
